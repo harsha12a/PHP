@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 40px;
+}
+#name,#email,#menu{
+    width: 250px;
+    padding: 10px;
+    height: 40px;
+    margin: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(204, 204, 204);
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.btn{
+    background-color: rgb(17, 0, 255);
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#name:focus,#email:focus,#menu:focus{
+    outline: none;
+    box-shadow: 0 0 10px rgb(17, 0, 255) inset;
+}
